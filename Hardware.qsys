@@ -27,6 +27,8 @@
       datum baseAddress
       {
          value = "12336";
+
+>>>>>>> main
          type = "String";
       }
    }
@@ -182,7 +184,11 @@
   <parameter name="dataAddrWidth" value="14" />
   <parameter name="dataMasterHighPerformanceAddrWidth" value="1" />
   <parameter name="dataMasterHighPerformanceMapParam" value="" />
+<<<<<<< HEAD
   <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='onchip_memory2_0.s1' start='0x0' end='0x2000' type='altera_avalon_onchip_memory2.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x2800' end='0x3000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='LEDR.s1' start='0x3020' end='0x3030' type='altera_avalon_pio.s1' /><slave name='KEY.s1' start='0x3030' end='0x3040' type='altera_avalon_pio.s1' /></address-map>]]></parameter>
+=======
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='onchip_memory2_0.s1' start='0x0' end='0x2000' type='altera_avalon_onchip_memory2.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x2800' end='0x3000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='LEDR.s1' start='0x3020' end='0x3030' type='altera_avalon_pio.s1' /><slave name='KEY.s1' start='0x3040' end='0x3050' type='altera_avalon_pio.s1' /></address-map>]]></parameter>
+>>>>>>> main
   <parameter name="data_master_high_performance_paddr_base" value="0" />
   <parameter name="data_master_high_performance_paddr_size" value="0" />
   <parameter name="data_master_paddr_base" value="0" />
@@ -221,7 +227,11 @@
   <parameter name="icache_tagramBlockType" value="Automatic" />
   <parameter name="impl" value="Tiny" />
   <parameter name="instAddrWidth" value="14" />
+<<<<<<< HEAD
   <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='onchip_memory2_0.s1' start='0x0' end='0x2000' type='altera_avalon_onchip_memory2.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x2800' end='0x3000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='KEY.s1' start='0x3030' end='0x3040' type='altera_avalon_pio.s1' /></address-map>]]></parameter>
+=======
+  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='onchip_memory2_0.s1' start='0x0' end='0x2000' type='altera_avalon_onchip_memory2.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x2800' end='0x3000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='KEY.s1' start='0x3040' end='0x3050' type='altera_avalon_pio.s1' /></address-map>]]></parameter>
+>>>>>>> main
   <parameter name="instructionMasterHighPerformanceAddrWidth" value="1" />
   <parameter name="instructionMasterHighPerformanceMapParam" value="" />
   <parameter name="instruction_master_high_performance_paddr_base" value="0" />
@@ -405,7 +415,11 @@
    start="nios2_gen2_0.data_master"
    end="KEY.s1">
   <parameter name="arbitrationPriority" value="1" />
+<<<<<<< HEAD
   <parameter name="baseAddress" value="0x3030" />
+=======
+  <parameter name="baseAddress" value="0x3040" />
+>>>>>>> main
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -432,7 +446,11 @@
    start="nios2_gen2_0.instruction_master"
    end="KEY.s1">
   <parameter name="arbitrationPriority" value="1" />
+<<<<<<< HEAD
   <parameter name="baseAddress" value="0x3030" />
+=======
+  <parameter name="baseAddress" value="0x3040" />
+>>>>>>> main
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection kind="clock" version="18.1" start="clk_0.clk" end="nios2_gen2_0.clk" />
